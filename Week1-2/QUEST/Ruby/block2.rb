@@ -2,7 +2,9 @@
 # 与えられた整数の配列の要素を2乗した配列を返す square 関数を定義してください。なお、map メソッドを使うようにしてください。
 
 def square(numbers)
-  numbers.map { |n| n ** 2 }
+  numbers.map do |n|
+    n ** 2
+  end
 end
 
 # 配列を定義
