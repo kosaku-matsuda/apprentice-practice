@@ -1,3 +1,6 @@
+# 1. each
+# 従業員の名前がID順に配列で渡されるので、IDと従業員の名前をセットにして出力する print_names 関数を定義してください。なお、each メソッドと with_index メソッドを使うようにしてください。
+
 names = ['上田', '田仲', '堀田']
 
 def print_names(names)
