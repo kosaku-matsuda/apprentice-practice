@@ -3,6 +3,6 @@
 
 n = 0
 def fibonacci(n)
-  sum = n * 
+  sum = n *
   if
 end
