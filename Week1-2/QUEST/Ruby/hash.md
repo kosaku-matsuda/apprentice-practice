@@ -17,7 +17,7 @@
 ※以下は例です。
 
 ```ruby
-person = { name: 'matsuda', age: 31, height: 180 }
+person = { name => 'matsuda', age => 31, height => 180 }
 
 puts person[:name] #matsuda
 puts person[:age] #31
