@@ -22,19 +22,19 @@ Rubyにおけるシンボルについて
 
 
 ```ruby
-colors = [red, blue, green]
+colors = ['red', 'blue', 'green']
 ```
 #### ハッシュ
 ```ruby
-human_data = {"name" => "matsuda", "age" => 31, "height" 180}
+human_data = {'name' => 'matsuda', 'age' => 31, "height" 180}
 {キー => 値}という形で書きます。
 ```
 #### そして、このハッシュのデータの書き方をシンボルで書くとこうなる。
 ```ruby
-human_data = {:name => "matuda", :age => 31, :height => 180}
+human_data = {:name => 'matuda', :age => 31, :height => 180}
 ```
 #### 省略した書き方もあり、こちらの方が見やすいと個人的に思います。
 
 ```ruby
-human_data = {name: "matuda", age: 31, height: 180}
+human_data = {name: 'matuda', age: 31, height: 180}
 ```
