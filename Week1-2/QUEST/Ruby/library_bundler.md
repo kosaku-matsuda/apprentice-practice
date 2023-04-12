@@ -17,5 +17,5 @@ Rubyのライブラリを管理するためのツールです。
 
 - Bundler を用いて、任意の gem を1つインストールしてください
 
-※rubocopをインストール。Gemfile参照
+※Gemfile参照
 
