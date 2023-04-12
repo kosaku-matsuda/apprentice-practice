@@ -3,7 +3,7 @@
 # 両方真もしくは両方偽なら false を出力する関数 xor を定義してください。
 
 #どちらも一緒だったらを判定するためにxとyが等しかったらの逆にできる!=を使い等しかったらelseの処理falseを出力するようにする
-def wor(x, y)
+def xor(x, y)
   if x != y
     puts true
   else
@@ -12,3 +12,6 @@ def wor(x, y)
 end
 
 xor(true, true)
+xor(true, false)
+xor(false, false)
+xor(false, true)
