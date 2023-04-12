@@ -4,11 +4,11 @@
 
 def greater(x, y)
   if x > y
-    puts "x > y"
+    puts 'x > y'
   elsif x < y
-    puts "x < y"
+    puts 'x < y'
   else x == y
-    puts "x == y"
+    puts 'x == y'
   end
 end
 

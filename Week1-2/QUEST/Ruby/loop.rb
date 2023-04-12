@@ -5,7 +5,7 @@
 
 def hello
   100.times do
-    puts "hello world"
+    puts 'こんにちは'
   end
 end
 
